@@ -18,10 +18,15 @@ h3 {
 
 /* Header */
 header {
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  display: flex;
 }
 
 /* Containers */
+
+
 div {
   background-color: #eae2b7;
   margin: auto;
@@ -36,8 +41,29 @@ article div {
   text-align: center;
   width: 100%;
 }
+.container{
+  
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.group{
+        display: flex;
+        flex: 1;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-evenly; 
+}
+
 
 /* Paragraphs */
+.description{
+  font-size: 14px;
+}
+
 p {
   line-height: 1.5;
 }
@@ -54,6 +80,8 @@ a:hover {
 nav a {
   padding-left: 20px;
 }
+
+
 
 /* Images */
 img {
