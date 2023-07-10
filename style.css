@@ -38,14 +38,14 @@ article {
 }
 
 article div {
-  text-align: center;
+  
   width: 100%;
 }
 .container{
   
   justify-content: center;
   display: flex;
-  flex-direction: row;
+  align-items: flex-start;
   align-items: center;
   
 }
@@ -55,7 +55,9 @@ article div {
         flex: 1;
         margin: 0 auto;
         flex-direction: column;
-        justify-content: space-evenly; 
+        justify-content: space-evenly;
+        padding: 5px;
+  
 }
 
 
